@@ -20,6 +20,10 @@ class getVidFromCam:
         capture.realease()
         cv2.destroyAllwindows()
 
+if __name__ == '__main__':
+    a = getVidFromCam(couplingAddress='put the adress here ')
+    a.connect()
+
 
 
 
