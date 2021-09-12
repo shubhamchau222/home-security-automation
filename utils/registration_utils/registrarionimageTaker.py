@@ -3,4 +3,5 @@
 
 class imagetaker:
     def __init__(sel , pathTostore) -> None:
+        self.dir = pathTostore
         pass

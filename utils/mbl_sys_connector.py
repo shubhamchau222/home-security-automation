@@ -4,4 +4,8 @@
 
 class getVidFromCam:
     def __init__(self , couplingAddress ) -> None:
+        self.couplingAdress = couplingAddress
         pass 
+
+
+    
