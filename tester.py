@@ -1,7 +1,10 @@
 import cv2 
-from utils.mbl_sys_connector import getVidFromCam
+from utils.registration_utils import general_registration
 
-a= getVidFromCam("put the link here ")
-a.connect()
+
+a= general_registration.register(client_name="shubham" , client_id=2012)
+a.create_dir()
+
+
 
     
