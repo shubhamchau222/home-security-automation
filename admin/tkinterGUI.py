@@ -10,9 +10,9 @@ def comman():
 root = tk.Tk()
 root.geometry("500x500")
 
-#bg = PhotoImage(file='Images/camera.png')
-#label1 = Label( root, image = bg)
-#label1.place(x = 0 ,y = 0 ) 
+bg = PhotoImage(file='Images/camera.png')
+label1 = Label( root, image = bg)
+label1.place(x = 0 ,y = 0 ) 
 
 
 
